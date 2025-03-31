@@ -1,0 +1,213 @@
+.backet {
+    display: flex;
+
+    &__main {
+        width: 792px;
+        height: 140px;
+        color: $color-text;
+        margin-bottom: 16px;
+        margin-top: 128px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 70px
+    }
+
+    &__amt {
+        margin-top: 64px;
+        margin-bottom: 14px;
+        width: 756px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__table {
+        gap: 32px;
+        display: flex;
+        margin-bottom: 32px;
+        width: 786px;
+        border-top: 0.5px solid rgb(202, 205, 216);
+    }
+
+    &__sofa {
+        gap: 32px;
+        display: flex;
+        margin-bottom: 32px;
+        width: 786px;
+        border-top: 0.5px solid rgb(202, 205, 216);
+    }
+
+    &__img {
+        width: 173px;
+        margin-top: 25px;
+
+    }
+
+    &__box {
+        margin-top: 20px;
+        width: 582px;
+
+    }
+
+    &__numbers {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__number {
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
+        width: 71px;
+        height: 51px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    &__name {
+        @extend .product__name
+    }
+
+    &__paragraph {
+        width: 276px;
+    }
+
+    &__price {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    &__choose {
+        gap: 30px;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    &__choose_p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    &__button {
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 50px;
+        width: 200px;
+        height: 37px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: $color-text;
+        margin-right: 8px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    &__button-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 200px;
+        height: 37px;
+
+    }
+
+
+
+    &__buttons {
+        margin-top: 18px;
+        display: flex;
+    }
+
+}
+
+
+
+.order {
+    margin-top: 64px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F6F6;
+    border-radius: 20px;
+    width: 379px;
+
+    &__placing {
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 42px;
+        line-height: 29px;
+
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        margin-top: 35px;
+        margin-bottom: 64px;
+    }
+
+    &__input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 205, 216);
+        width: 288px;
+        background: rgb(247, 246, 246);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    &__input::placeholder {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    &__input:focus {
+        outline: none;
+
+    }
+
+
+    &__button {
+        margin-top: 18px;
+        position: relative;
+        width: 290px;
+        height: 41px;
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        background-color: transparent;
+
+
+    }
+
+    &__price {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+}

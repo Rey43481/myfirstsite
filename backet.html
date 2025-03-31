@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-backet center">
+        <header class="header">
+            <img src="./images/logo__white.svg" alt="лого">
+            <input placeholder="Поиск" class="header__input" type="text">
+            <nav class="menu">
+                <a class="menu__link" href="backet.html">Корзина</a>
+                <a class="menu__link" href="catalog.html">Каталог</a>
+            </nav>
+        </header>
+        <h1 class="backet__main">Корзина</h1>
+    </div>
+
+
+    <section class="backet center">
+
+        <article class="backet__products">
+            <div class="backet__amt center">
+                <p>Товар</p>
+                <p>К-во</p>
+            </div>
+
+            <div class="backet__table">
+                <div class="backet__img">
+                    <img src="images/table-menu-backet.jpeg" alt="">
+                </div>
+                <div class="backet__box">
+                    <div class="backet__numbers">
+                        <h3 class="backet__name">Стол MENU</h3>
+                        <input value="1" class="backet__number" type="number">
+                    </div>
+                    <p class=" backet__paragraph product__description">Для того чтобы трапезничать было приятно,
+                        необходим
+                        правильный обеденный стол.</p>
+                    <p class="backet__price">34 000 руб.</p>
+                    <div class="backet__choose">
+                        <p class="backet__choose_p">Избранные</p>
+                        <p class="backet__choose_p">Удалить</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="backet__sofa">
+                <div class="backet__img">
+                    <img src="images/sofa-nastan-backet.jpeg" alt="">
+                </div>
+                <div class="backet__box">
+                    <div class="backet__numbers">
+                        <h3 class="backet__name">Диван NASTAN</h3>
+                        <input value="1" class="backet__number" type="number">
+                    </div>
+                    <p class=" backet__paragraph product__description">Модель отличается простотой линий и форм,
+                        отсутствием броского декора. </p>
+                    <p class="backet__price">80 000 руб.</p>
+                    <div class="backet__choose">
+                        <p class="backet__choose_p">Избранные</p>
+                        <p class="backet__choose_p">Удалить</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="backet__buttons">
+                <button class="backet__button">Очистить корзину</button>
+                <a class="backet__button backet__button_continue" href="catalog.html">Продолжить покупки</a>
+            </div>
+
+        </article>
+
+
+        <form class="order">
+            <h3 class="order__placing">Оформление заказа</h3>
+            <div class="order__inputs">
+                <input class="order__input" type="text" placeholder="Имя Фамилия" name="name" id="name-input">
+                <input class="order__input" type="text" placeholder="+ 7 904 000 80 80" name="phone" id="phone-input">
+                <input class="order__input" type="text" placeholder="Адрес доставки" name="adress" id="adress-input">
+            </div>
+
+            <h3 class="order__price">Итого: 128 000 руб.</h3>
+            <button class="order__button">Оформить заказ</button>
+        </form>
+    </section>
+
+
+    <h2 class="spec center">Специальные предложения</h2>
+
+    <section class=" products1 center">
+        <article class="product">
+            <img class="product__img" src="images/bed-tatran.jpeg" alt="bed">
+            <div class="product__button">
+                <button class="product__button_img"> <img src="images/vector.svg" alt=""></button>
+                <button class="product__button_img"> <img src="images/favourites.svg" alt=""></button>
+            </div>
+            <h3 class="backet__name">Кровать TATRAN</h3>
+            <p class="product__description">Основание из полированной нержавеющей стали, придает оригинальный парящий
+                эффект.</p>
+            <div class="price">
+                <p class="product__price">120 000 руб.</p>
+                <p class="product__noprice">140 000 руб.</p>
+            </div>
+        </article>
+
+        <article class="product">
+            <img class="product__img" src="images/product1.jpg" alt="кресло желтое">
+            <div class="product__button">
+                <button class="product__button_img"> <img src="images/vector.svg" alt=""></button>
+                <button class="product__button_img"> <img src="images/favourites.svg" alt=""></button>
+            </div>
+            <h3 class="backet__name">Кресло VILORA</h3>
+            <p class="product__description">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная
+                на
+                ощупь ткань</p>
+            <div class="price">
+                <p class="product__price">21 000 руб.</p>
+                <p class="product__noprice">28 000 руб.</p>
+            </div>
+        </article>
+
+        <article class="product">
+            <img class="product__img" src="images/table-menu.jpeg" alt="комод">
+            <div class="product__button">
+                <button class="product__button_img"> <img src="images/vector.svg" alt=""></button>
+                <button class="product__button_img"> <img src="images/favourites.svg" alt=""></button>
+            </div>
+            <h3 class="backet__name">Стол MENU</h3>
+            <p class="product__description">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+            <div class="price">
+                <p class="product__price">34 000 руб.</p>
+                <p class="product__noprice">45 000 руб.</p>
+            </div>
+        </article>
+
+    </section>
+
+    <a class="catalog center" href="catalog.html">Перейти в каталог</a>
+
+
+    <footer class="footer center">
+        <img class="footer__img" src="images/logo.svg" alt="лого">
+
+        <article class="footer__menus">
+            <h4 class="footer__name">Меню</h4>
+
+            <a class="footer__contact" href="index.html">Главная</a>
+            <a class="footer__contact" href="catalog.html">Каталог</a>
+            <a class="footer__contact" href="backet.html">Корзина</a>
+
+        </article>
+
+        <article class="footer__contacts">
+            <h4 class="footer__name">Контакты</h4>
+            <a href="" class="footer__link">+7 908 800 80 80</a>
+            <a href="" class="footer__link">help@interier.com</a>
+            <div class="footer__icon">
+                <a href="#"><img class="footer__social-icon" src="images/vk.svg" alt=""> </a> <a href="# "><img
+                        class="footer__social-icon" src="images/dzen.svg" alt=""> </a> <a href="#"><img
+                        class="footer__social-icon" src="images/telegram.svg" alt=""></a>
+            </div>
+        </article>
+
+        <form class="form">
+            <p class="form__send">Получайте наши новости и обновления</p>
+            <input placeholder="Ваш e-mail" type="email" class="form__mail">
+            <button class="form__sub">Подписаться</button>
+        </form>
+    </footer>
+</body>
+
+</html>
