@@ -1,5 +1,4 @@
-$color-text: $color-textfff;
-
+$color-text: #fff;
 
 * {
     margin: 0;
@@ -90,7 +89,7 @@ body {
     display: flex;
     gap: 32px;
 
-    &_link {
+    &__link {
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
@@ -100,16 +99,16 @@ body {
 
     }
 
-    &_link:hover {
+    &__link:hover {
         text-decoration: underline;
-        text-decoration-color: $color-textfff;
+        text-decoration-color: $color-text;
     }
 }
 
 
 
 .main__house {
-    width: 792px;
+    max-width: 792px;
     height: 140px;
     color: $color-text;
     margin-bottom: 16px;
@@ -141,13 +140,6 @@ body {
     align-items: baseline;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
 
 
 .choose2 {
@@ -245,8 +237,7 @@ body {
 }
 
 .catalog {
-    padding-top: 38px;
-    padding-bottom: 64px;
+    padding-right: 0px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -255,8 +246,13 @@ body {
     text-decoration-line: underline;
     color: #000000;
 }
+.catalog:hover{
+    text-decoration-line: none;
+    color: #888888;
+}
 
 .catalog-products {
+    margin-bottom: 32px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 32px;
@@ -269,9 +265,9 @@ body {
     row-gap: 56px;
     column-gap: 32px;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 32px;
     margin-bottom: 72px;
-    gap: 32px;
 }
 
 .products2 {
@@ -292,6 +288,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 378px;
+    
+    &__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #888888;
+    padding-bottom: 12px;
+    }
 
     &__img {
         width: 100%;
@@ -372,6 +376,11 @@ body {
     &:hover .product__button {
         opacity: 1;
     }
+
+    &__more{
+        @extend .catalog
+        
+    }
 }
 
 
@@ -391,25 +400,25 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    .footer__img {
+    &__img {
         width: 198px;
         height: 44px;
 
     }
 
-    .footer__menus {
+    &__menus {
 
         display: flex;
         flex-direction: column
     }
 
-    .footer__contacts {
+    &__contacts {
 
         display: flex;
         flex-direction: column
     }
 
-    .footer__name {
+    &__name {
         margin-bottom: 12px;
         font-weight: 500;
         font-size: 24px;
@@ -417,7 +426,7 @@ body {
         color: #000000;
     }
 
-    .footer__contact {
+    &__contact {
         padding-bottom: 12px;
         font-weight: 500;
         font-size: 14px;
@@ -426,11 +435,11 @@ body {
         text-decoration: none;
     }
 
-    .footer__contact:hover {
+    &__contact:hover {
         text-decoration: underline;
     }
 
-    .footer__link {
+    &__link {
         color: rgb(136, 136, 136);
         font-family: Montserrat;
         font-size: 14px;
@@ -442,18 +451,24 @@ body {
         text-decoration: none;
     }
 
-    .footer__link:hover {
+    &__link:hover {
         text-decoration: underline;
     }
 
-    .footer__icon {
+    &__icon {
         font-size: 0
     }
 
 
-    .footer__social-icon {
+    &__social-icon {
         padding-right: 12px;
     }
+
+    &__social-icon:hover{
+        fill: #000000;
+    }
+      
+    
 }
 
 .form {
@@ -502,7 +517,14 @@ body {
         line-height: 16px;
         color: #000000;
     }
+
+    .form__sub:hover{
+        background: #000;
+        color:#ffffff
+    }
 }
 
 @import "backet";
-@import "catalog"
+@import "catalog";
+@import "tablet";
+@import "phone"

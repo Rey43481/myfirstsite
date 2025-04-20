@@ -32,6 +32,7 @@
         margin-bottom: 32px;
         width: 786px;
         border-top: 0.5px solid rgb(202, 205, 216);
+        padding-top: 32px;
     }
 
     &__sofa {
@@ -40,16 +41,16 @@
         margin-bottom: 32px;
         width: 786px;
         border-top: 0.5px solid rgb(202, 205, 216);
+        padding-top: 32px;
     }
 
     &__img {
         width: 173px;
-        margin-top: 25px;
+        
 
     }
 
     &__box {
-        margin-top: 20px;
         width: 582px;
 
     }
@@ -75,18 +76,29 @@
     }
 
     &__name {
-        @extend .product__name
+        margin-top: 10px;
+        margin-bottom: 9px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        color: #000000;
     }
 
     &__paragraph {
         width: 276px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #888888;
     }
 
     &__price {
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
-        margin-top: 15px;
+        margin-top: 16px;
     }
 
     &__choose {
@@ -114,6 +126,17 @@
         margin-right: 8px;
         text-decoration: none;
         color: #000000;
+    }
+
+    &__button_continue{
+        padding-top: 8px;
+        padding-left: 20px;
+        
+    }
+
+    &__button:hover{
+        background-color: #000000;
+        color: $color-text;
     }
 
     &__button-a {
@@ -208,6 +231,9 @@
     &__price {
         font-size: 24px;
         font-weight: 500;
+    }
+    &__price_span{
+        font-weight: 400;
     }
 
 }

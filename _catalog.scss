@@ -38,6 +38,7 @@
 }
 
 .filtering-form {
+  max-width: 448px;
   position: absolute;
   top: 56px;
   display: flex;
@@ -61,14 +62,15 @@
 
 
 .filtering-form__fieldset {
+  width: 190px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
   border: none;
 }
 
 .filtering-form__fieldset_type {
-  padding-right: 40px;
+  padding-right: 36px;
 }
 
 
@@ -193,7 +195,7 @@
     font-size: 14px;
     position: relative;
     height: 20px;
-    width: 210px;
+    width: 190px;
     display: inline-block;
     margin-top: -5px;
   }
