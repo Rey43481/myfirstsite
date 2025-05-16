@@ -577,6 +577,7 @@ body {
   margin-top: 15px;
 }
 .backet__choose_p {
+  text-decoration: underline;
   font-size: 14px;
   font-weight: 400;
 }
