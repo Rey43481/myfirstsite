@@ -1,106 +1,109 @@
-@media (max-width:375px){
-    
-    .main__house{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 59px;
-    text-align: center
+@media (max-width:375px) {
+
+    .main__house {
+        margin-top: 82px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 59px;
+        text-align: center
     }
 
-    .main__fur{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: center;
-    padding-top: 17px;
+    .main__fur {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        padding-top: 17px;
     }
 
-    .main__catalog{
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
+    .main__catalog {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
     }
 
-    .header__input{
-    display: none;
-    }
-
-    .logo{
-    font-weight: 600;
-    width: 99px;
-    height: 22px;
-    }
-
-    .menu__link{
+    .header__input {
         display: none;
     }
-    
-    .header{
+
+    .logo {
+        font-weight: 600;
+        width: 99px;
+        height: 22px;
+    }
+
+    .menu__link {
+        display: none;
+    }
+
+    .header {
         border-bottom: none;
     }
- 
 
-    .for{
+
+    .for {
         grid-template-columns: none;
     }
 
-    .for__item{
+    .for__item {
         font-size: 28px;
         font-weight: 600;
         background-size: 110%;
     }
 
-    .for__item_big{
+    .for__item_big {
         grid-column: span 4;
     }
 
     .for__item_2,
-    .for__item_2{
+    .for__item_2 {
         width: 343px;
         height: 243px;
     }
-    .for__item_3, 
+
+    .for__item_3,
     .for__item_4,
-    .for__item_5{
+    .for__item_5 {
         width: 342px;
         height: 374px;
     }
-    .spec{
+
+    .spec {
         font-size: 24px;
         font-weight: 600;
         line-height: 29px;
     }
 
-    .form{
+    .form {
         margin-top: 70px;
         margin-left: 40px;
     }
 
 
-    .product__name{
+    .product__name {
         font-size: 18px;
         font-weight: 500;
     }
 
-    .product__description{
+    .product__description {
         font-size: 14px;
         font-weight: 400;
     }
-    .product__price{
+
+    .product__price {
         font-size: 18px;
         font-weight: 500;
     }
 
-    .product__noprice{
+    .product__noprice {
         font-size: 18px;
         font-weight: 500;
     }
 
-    .catalog{
-        padding-left: 0px;
+    .catalog {
         padding-right: 0px;
     }
 
@@ -110,33 +113,101 @@
         flex-direction: column;
     }
 
-    .list{
+    .list {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .filtering-form{
+    .filtering-form {
         max-width: 190px;
-        left: 0; 
+        left: 0;
     }
 
-    .filtering-form__content-wrapper{
+    .filtering-form__content-wrapper {
         max-height: 910px;
     }
-    
-    .filter-button-wrapper{
+
+    .filter-button-wrapper {
         display: flex;
         justify-content: flex-start;
     }
 
     .filtering-form__button {
-        align-self:auto
+        align-self: auto
     }
 
-    .header__logo_big{
+    .header__logo_big {
         display: none;
     }
-    
-  
 
+    .backet__main {
+        place-self: center;
+        margin-top: 82px;
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .backet__button {
+        padding: 10px 25px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 166px;
+    }
+
+    .backet__button_continue {
+        padding: 10px;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        width: 163px;
+    }
+
+    .backet__img {
+        display: none;
+    }
+
+    .backet__table{
+        width: 343px;
+    }
+
+    .backet__sofa{
+        width: 343px;
+    }
+
+    .backet__numbers {
+        gap: 145px;
+    }
+
+    .backet__numbers_sofa{
+        gap: 110px;
+    }
+
+    .backet__name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .backet__paragraph {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .backet__price {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .backet__choose_p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 210%;
+    }
+
+    .order{
+        width: 343px;
+    }
+
+    .backet__amt_element{
+        display: none;
+    }
 }

@@ -485,7 +485,7 @@ body {
   display: flex;
 }
 .backet__main {
-  width: 792px;
+  max-width: 792px;
   height: 140px;
   color: #fff;
   margin-bottom: 16px;
@@ -497,7 +497,7 @@ body {
 .backet__amt {
   margin-top: 64px;
   margin-bottom: 14px;
-  width: 756px;
+  max-width: 756px;
   display: flex;
   justify-content: space-between;
 }
@@ -532,6 +532,10 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
+  gap: 348px;
+}
+.backet__numbers_sofa {
+  gap: 312px;
 }
 .backet__number {
   border-radius: 6px;
@@ -1013,7 +1017,6 @@ body {
     display: none;
   }
   .catalog, .product__more {
-    padding-left: 0px;
     padding-right: 0px;
   }
 }
@@ -1024,6 +1027,7 @@ body {
 }
 @media (max-width: 375px) {
   .main__house {
+    margin-top: 82px;
     font-size: 48px;
     font-weight: 600;
     line-height: 59px;
@@ -1106,7 +1110,6 @@ body {
     font-weight: 500;
   }
   .catalog, .product__more {
-    padding-left: 0px;
     padding-right: 0px;
   }
   .navigation {
@@ -1133,6 +1136,63 @@ body {
     align-self: auto;
   }
   .header__logo_big {
+    display: none;
+  }
+  .backet__main {
+    place-self: center;
+    margin-top: 82px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .backet__button {
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 166px;
+  }
+  .backet__button_continue {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    width: 163px;
+  }
+  .backet__img {
+    display: none;
+  }
+  .backet__table {
+    width: 343px;
+  }
+  .backet__sofa {
+    width: 343px;
+  }
+  .backet__numbers {
+    gap: 145px;
+  }
+  .backet__numbers_sofa {
+    gap: 110px;
+  }
+  .backet__name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .backet__paragraph {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .backet__price {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .backet__choose_p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+  }
+  .order {
+    width: 343px;
+  }
+  .backet__amt_element {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
