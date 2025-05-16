@@ -55,6 +55,19 @@ body {
     &__input::placeholder {
         color: $color-text;
     }
+
+    &__icon_small {
+        margin-top: 32px;
+        width: 343px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    &__icons{
+        display: flex;
+        gap: 32px;
+    }
 }
 
 
@@ -152,7 +165,7 @@ body {
     flex: none;
     flex-grow: 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px;
     padding-left: 23px;
     padding-top: 8px;
@@ -246,7 +259,8 @@ body {
     text-decoration-line: underline;
     color: #000000;
 }
-.catalog:hover{
+
+.catalog:hover {
     text-decoration-line: none;
     color: #888888;
 }
@@ -288,13 +302,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 378px;
-    
+
     &__description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    color: #888888;
-    padding-bottom: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #888888;
+        padding-bottom: 12px;
     }
 
     &__img {
@@ -377,9 +391,8 @@ body {
         opacity: 1;
     }
 
-    &__more{
+    &__more {
         @extend .catalog
-        
     }
 }
 
@@ -456,6 +469,9 @@ body {
     }
 
     &__icon {
+        display: flex;
+        gap: 20px;
+        align-items: center;
         font-size: 0
     }
 
@@ -464,11 +480,19 @@ body {
         padding-right: 12px;
     }
 
-    &__social-icon:hover{
+    &__social-icon:hover {
         fill: #000000;
     }
-      
-    
+
+    &__icon-link {
+        display: inline-block;
+    }
+
+    &__icon-link:hover svg * {
+        fill: #000000;
+    }
+
+
 }
 
 .form {
@@ -518,9 +542,9 @@ body {
         color: #000000;
     }
 
-    .form__sub:hover{
+    .form__sub:hover {
         background: #000;
-        color:#ffffff
+        color: #ffffff
     }
 }
 

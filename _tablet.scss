@@ -7,12 +7,25 @@
     .for{
         &__item{
             height: 268px;
-            background-size: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
         }
 
     }
 
-   
+   .backet{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .order{
+    padding-bottom: 148px;
+    margin-left: 0;
+   }
+
+    .filtering-form{
+        right: -238px;
+   }
     
     
     
@@ -38,5 +51,11 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+   
+}
 
+@media (min-width: 376px){
+    .header__icon_small{
+        display: none;
+    }
 }

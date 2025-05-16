@@ -79,6 +79,7 @@
         margin-left: 40px;
     }
 
+
     .product__name{
         font-size: 18px;
         font-weight: 500;
@@ -102,4 +103,40 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    .navigation {
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .filtering-form{
+        max-width: 190px;
+        left: 0; 
+    }
+
+    .filtering-form__content-wrapper{
+        max-height: 910px;
+    }
+    
+    .filter-button-wrapper{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .filtering-form__button {
+        align-self:auto
+    }
+
+    .header__logo_big{
+        display: none;
+    }
+    
+  
+
 }

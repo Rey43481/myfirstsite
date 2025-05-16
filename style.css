@@ -55,6 +55,17 @@ body {
 .header__input::placeholder {
   color: #fff;
 }
+.header__icon_small {
+  margin-top: 32px;
+  width: 343px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.header__icons {
+  display: flex;
+  gap: 32px;
+}
 
 .top {
   height: 735px;
@@ -141,7 +152,7 @@ body {
   flex: none;
   flex-grow: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
   padding-left: 23px;
   padding-top: 8px;
@@ -402,12 +413,21 @@ body {
   text-decoration: underline;
 }
 .footer__icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
   font-size: 0;
 }
 .footer__social-icon {
   padding-right: 12px;
 }
 .footer__social-icon:hover {
+  fill: #000000;
+}
+.footer__icon-link {
+  display: inline-block;
+}
+.footer__icon-link:hover svg * {
   fill: #000000;
 }
 
@@ -482,6 +502,7 @@ body {
   justify-content: space-between;
 }
 .backet__products {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -963,7 +984,19 @@ body {
   }
   .for__item {
     height: 268px;
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .backet {
+    display: flex;
+    flex-direction: column;
+  }
+  .order {
+    padding-bottom: 148px;
+    margin-left: 0;
+  }
+  .filtering-form {
+    right: -238px;
   }
 }
 @media (max-width: 834px) {
@@ -982,6 +1015,11 @@ body {
   .catalog, .product__more {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+@media (min-width: 376px) {
+  .header__icon_small {
+    display: none;
   }
 }
 @media (max-width: 375px) {
@@ -1070,5 +1108,31 @@ body {
   .catalog, .product__more {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .navigation {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .list {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .filtering-form {
+    max-width: 190px;
+    left: 0;
+  }
+  .filtering-form__content-wrapper {
+    max-height: 910px;
+  }
+  .filter-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .filtering-form__button {
+    align-self: auto;
+  }
+  .header__logo_big {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
