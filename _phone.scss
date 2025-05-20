@@ -34,7 +34,8 @@
         display: none;
     }
 
-    .products1 {
+    .products1,
+    .products2 {
         row-gap: 32px;
     }
 
@@ -81,10 +82,14 @@
     }
 
     .spec {
-        margin-top: 48px;
+        margin-top: 36px;
         font-size: 24px;
         font-weight: 600;
         line-height: 29px;
+    }
+
+    .spec__backet{
+        margin-top: 48px;
     }
 
     .form {

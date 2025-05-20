@@ -242,11 +242,15 @@ body {
 
 
 .spec {
-    margin-top: 64PX;
+    margin-top: 72px;
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
     color: #000000
+}
+
+.spec__backet{
+    @extend .spec
 }
 
 .catalog {
@@ -281,7 +285,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 32px;
-    margin-bottom: 72px;
+   
 }
 
 .products2 {
