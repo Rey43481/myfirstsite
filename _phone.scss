@@ -1,5 +1,10 @@
 @media (max-width:375px) {
 
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .main__house {
         margin-top: 82px;
         font-size: 48px;
@@ -27,6 +32,10 @@
 
     .header__input {
         display: none;
+    }
+
+    .products1 {
+        row-gap: 32px;
     }
 
     .logo {
@@ -72,6 +81,7 @@
     }
 
     .spec {
+        margin-top: 48px;
         font-size: 24px;
         font-weight: 600;
         line-height: 29px;
@@ -103,8 +113,12 @@
         font-weight: 500;
     }
 
-    .catalog {
-        padding-right: 0px;
+    .catalog-products {
+        row-gap: 32px;
+    }
+
+    .order__inputs {
+        margin-left: -11px;
     }
 
     .navigation {
@@ -125,6 +139,7 @@
 
     .filtering-form__content-wrapper {
         max-height: 910px;
+        width: 190px;
     }
 
     .filter-button-wrapper {
@@ -166,11 +181,11 @@
         display: none;
     }
 
-    .backet__table{
+    .backet__table {
         width: 343px;
     }
 
-    .backet__sofa{
+    .backet__sofa {
         width: 343px;
     }
 
@@ -178,7 +193,7 @@
         gap: 145px;
     }
 
-    .backet__numbers_sofa{
+    .backet__numbers_sofa {
         gap: 110px;
     }
 
@@ -203,11 +218,16 @@
         line-height: 210%;
     }
 
-    .order{
-        width: 343px;
+    .backet__buttons{
+        gap: 14px;
     }
 
-    .backet__amt_element{
+    .order {
+        width: 343px;
+        margin-top: 48px;
+    }
+
+    .backet__amt_element {
         display: none;
     }
 }

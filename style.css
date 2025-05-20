@@ -113,7 +113,7 @@ body {
   height: 140px;
   color: #fff;
   margin-bottom: 16px;
-  margin-top: 64px;
+  margin-top: 128px;
   font-weight: 600;
   font-size: 64px;
   line-height: 70px;
@@ -270,7 +270,7 @@ body {
        column-gap: 32px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 38px;
+  margin-bottom: 31px;
 }
 
 .product {
@@ -512,7 +512,7 @@ body {
   margin-bottom: 32px;
   width: 786px;
   border-top: 0.5px solid rgb(202, 205, 216);
-  padding-top: 32px;
+  padding-top: 25px;
 }
 .backet__sofa {
   gap: 32px;
@@ -591,7 +591,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   background-color: #fff;
-  margin-right: 8px;
   text-decoration: none;
   color: #000000;
 }
@@ -611,6 +610,7 @@ body {
   height: 37px;
 }
 .backet__buttons {
+  gap: 7px;
   margin-top: 18px;
   display: flex;
 }
@@ -637,6 +637,7 @@ body {
   gap: 42px;
   margin-top: 35px;
   margin-bottom: 64px;
+  margin-left: -27px;
 }
 .order__input {
   border: none;
@@ -747,7 +748,7 @@ body {
   flex-wrap: wrap;
   gap: 32px 65px;
   max-height: 548px;
-  min-width: 540px;
+  width: 440px;
 }
 
 .filtering-form__fieldset {
@@ -1017,9 +1018,6 @@ body {
   .footer__img {
     display: none;
   }
-  .catalog, .product__more {
-    padding-right: 0px;
-  }
 }
 @media (min-width: 376px) {
   .header__icon_small {
@@ -1027,6 +1025,10 @@ body {
   }
 }
 @media (max-width: 375px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .main__house {
     margin-top: 82px;
     font-size: 48px;
@@ -1051,6 +1053,9 @@ body {
   }
   .header__input {
     display: none;
+  }
+  .products1 {
+    row-gap: 32px;
   }
   .logo {
     font-weight: 600;
@@ -1086,6 +1091,7 @@ body {
     height: 374px;
   }
   .spec {
+    margin-top: 48px;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
@@ -1110,8 +1116,11 @@ body {
     font-size: 18px;
     font-weight: 500;
   }
-  .catalog, .product__more {
-    padding-right: 0px;
+  .catalog-products {
+    row-gap: 32px;
+  }
+  .order__inputs {
+    margin-left: -11px;
   }
   .navigation {
     margin-bottom: 32px;
@@ -1128,6 +1137,7 @@ body {
   }
   .filtering-form__content-wrapper {
     max-height: 910px;
+    width: 190px;
   }
   .filter-button-wrapper {
     display: flex;
@@ -1190,8 +1200,12 @@ body {
     font-weight: 400;
     line-height: 210%;
   }
+  .backet__buttons {
+    gap: 14px;
+  }
   .order {
     width: 343px;
+    margin-top: 48px;
   }
   .backet__amt_element {
     display: none;

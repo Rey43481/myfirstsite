@@ -33,7 +33,7 @@
         margin-bottom: 32px;
         width: 786px;
         border-top: 0.5px solid rgb(202, 205, 216);
-        padding-top: 32px;
+        padding-top: 25px;
     }
 
     &__sofa {
@@ -47,7 +47,7 @@
 
     &__img {
         width: 173px;
-        
+
 
     }
 
@@ -63,7 +63,7 @@
         gap: 348px;
     }
 
-    &__numbers_sofa{
+    &__numbers_sofa {
         gap: 312px;
     }
 
@@ -129,18 +129,18 @@
         font-size: 14px;
         font-weight: 400;
         background-color: $color-text;
-        margin-right: 8px;
+        
         text-decoration: none;
         color: #000000;
     }
 
-    &__button_continue{
+    &__button_continue {
         padding-top: 8px;
         padding-left: 20px;
-        
+
     }
 
-    &__button:hover{
+    &__button:hover {
         background-color: #000000;
         color: $color-text;
     }
@@ -157,6 +157,7 @@
 
 
     &__buttons {
+        gap: 7px;
         margin-top: 18px;
         display: flex;
     }
@@ -189,6 +190,7 @@
         gap: 42px;
         margin-top: 35px;
         margin-bottom: 64px;
+        margin-left: -27px;
     }
 
     &__input {
@@ -238,7 +240,8 @@
         font-size: 24px;
         font-weight: 500;
     }
-    &__price_span{
+
+    &__price_span {
         font-weight: 400;
     }
 
