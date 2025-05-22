@@ -505,7 +505,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.backet__table {
+.backet__furniture {
   gap: 32px;
   display: flex;
   margin-bottom: 32px;
@@ -513,12 +513,7 @@ body {
   border-top: 0.5px solid rgb(202, 205, 216);
   padding-top: 25px;
 }
-.backet__sofa {
-  gap: 32px;
-  display: flex;
-  margin-bottom: 32px;
-  width: 786px;
-  border-top: 0.5px solid rgb(202, 205, 216);
+.backet__furniture_sofa {
   padding-top: 32px;
 }
 .backet__img {
@@ -1029,7 +1024,7 @@ body {
     padding-right: 16px;
   }
   .main__house {
-    margin-top: 82px;
+    margin-top: 100px;
     font-size: 48px;
     font-weight: 600;
     line-height: 59px;
@@ -1053,9 +1048,13 @@ body {
   .header__input {
     display: none;
   }
+  .charset {
+    margin-bottom: 14px;
+  }
   .products1,
   .products2 {
     row-gap: 32px;
+    margin-bottom: 32px;
   }
   .logo {
     font-weight: 600;

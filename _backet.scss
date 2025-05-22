@@ -27,7 +27,7 @@
         flex-direction: column;
     }
 
-    &__table {
+    &__furniture {
         gap: 32px;
         display: flex;
         margin-bottom: 32px;
@@ -36,12 +36,7 @@
         padding-top: 25px;
     }
 
-    &__sofa {
-        gap: 32px;
-        display: flex;
-        margin-bottom: 32px;
-        width: 786px;
-        border-top: 0.5px solid rgb(202, 205, 216);
+    &__furniture_sofa {
         padding-top: 32px;
     }
 

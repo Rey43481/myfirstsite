@@ -6,7 +6,7 @@
     }
 
     .main__house {
-        margin-top: 82px;
+        margin-top: 100px;
         font-size: 48px;
         font-weight: 600;
         line-height: 59px;
@@ -34,9 +34,14 @@
         display: none;
     }
 
+    .charset {
+        margin-bottom: 14px;
+    }
+
     .products1,
     .products2 {
         row-gap: 32px;
+        margin-bottom: 32px;
     }
 
     .logo {
@@ -88,7 +93,7 @@
         line-height: 29px;
     }
 
-    .spec__backet{
+    .spec__backet {
         margin-top: 48px;
     }
 
@@ -223,7 +228,7 @@
         line-height: 210%;
     }
 
-    .backet__buttons{
+    .backet__buttons {
         gap: 14px;
     }
 
