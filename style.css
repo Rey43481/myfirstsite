@@ -260,6 +260,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .products2 {
@@ -269,7 +270,7 @@ body {
        column-gap: 32px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 31px;
+  margin-bottom: 32px;
 }
 
 .product {
@@ -1013,12 +1014,12 @@ body {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 377px) {
   .header__icon_small {
     display: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -1173,10 +1174,7 @@ body {
   .backet__img {
     display: none;
   }
-  .backet__table {
-    width: 343px;
-  }
-  .backet__sofa {
+  .backet__furniture {
     width: 343px;
   }
   .backet__numbers {
